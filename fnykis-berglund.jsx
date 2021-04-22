@@ -1,14 +1,14 @@
 /*
 <javascriptresource>
 <name>$$$/JavaScripts/ScriptName/Menu=Berglund...</name>
-<about>$$$/JavaScripts/ScriptName/About=Transfer of paths, channels and raster layers to another document.^r^rCopyright 2021 Fnykis^r^rv0.1.0</about>
+<about>$$$/JavaScripts/ScriptName/About=Transfer of paths, channels and raster layers to another document.^r^rCopyright 2021 Fnykis</about>
 <category>Fnykis</category> 
 </javascriptresource>
 */
 
 ////////////////////////////////////////////////////////////////////////
 ////    
-////    BERGLUND v0.1.0
+////    BERGLUND v0.1.1
 ////    by Fnykis
 ////    https://github.com/Fnykis
 ////    ---------
@@ -1047,8 +1047,6 @@ function main() {
             if (errorsFound.length != 0) {
                 pushError(errorsFound, [itemSource, itemDest]);
             }
-
-            if (i == 0) break;
 
         } catch(e) {
             pushError(e.line + ": " + e, [itemSource, itemDest]);
