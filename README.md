@@ -1,5 +1,5 @@
 # Berglund
-[![version](https://img.shields.io/badge/version-0.1.3-brightgreen)](https://GitHub.com/Fnykis/Berglund/releases/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![version](https://img.shields.io/badge/version-0.1.0-brightgreen)](https://GitHub.com/Fnykis/Berglund/releases/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 #### Paths, channels & raster layers transfer inbetween Photoshop documents
 
 ## Installation:
