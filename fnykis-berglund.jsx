@@ -8,7 +8,7 @@
 
 ////////////////////////////////////////////////////////////////////////
 ////    
-////    BERGLUND v0.1.1
+////    BERGLUND v0.1.2
 ////    by Fnykis
 ////    https://github.com/Fnykis
 ////    ---------
@@ -809,7 +809,7 @@ function main() {
 
                     }
                 } else {
-                    errorsFound.push("No paths found in source file");
+                    // errorsFound.push("No paths found in source file");
                 }
 
             }
@@ -921,7 +921,7 @@ function main() {
 
                     }
                 } else {
-                    errorsFound.push("No channels found in source file");
+                    // errorsFound.push("No channels found in source file");
                 }
                 
             }
@@ -931,6 +931,7 @@ function main() {
 
                 var itemToMove, removedAll, skipItem, keeping;
                 itemName = undefined;
+                matchingLayer = undefined;
                 var sourceRasters = docSource.layers;
                 var destRasters = docDest.layers;
                 
